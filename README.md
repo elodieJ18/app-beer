@@ -1,11 +1,14 @@
 #  punk-api-frontend
 
-**This app for knowing about beers. You will be able to use some filters and match your beers with food Pairing**
+**This app for knowing about beers. You will be able to use some filters, get a random beer and match the beers with food Pairing**
 
 For the test it took me 6h30 maybe
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+
 **I know this app (Create REACT App) is nolonger obsolete I changing for next.js**
+**Because it was a simple test I didn't use Axios, Context/or Redux** 
+
 
 ## Available Scripts
 
