@@ -29,7 +29,7 @@ export const CardAllBeers = ({beer}) => {
                 </div>
           </div>  
           <div className="button-type-hover-container"> 
-               <button className="button-type-hover-element">MORE ABOUT THIS BEER</button>
+               <button onClick={() => setbuttonOneBeer(true, document.body.style.overflow = 'hidden')} className="button-type-hover-element">MORE ABOUT THIS BEER</button>
           </div>
         </div>  
 

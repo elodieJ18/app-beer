@@ -103,3 +103,31 @@
 }
 
  
+@media (max-width: 720px) {  
+
+    .popup-one-beer-container {
+        margin: 0px; 
+        width: 100%;
+    }
+
+    .popup-card-container-element {
+        margin: 0px;
+        border: 0.5px solid;
+
+        .popup-card-info {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        }
+
+    }
+
+   
+
+    .popup-card-info img {
+        height: 100%;
+        width: 20%;
+    }
+
+}
+
