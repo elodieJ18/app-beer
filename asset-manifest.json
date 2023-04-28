@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/punk-api-frontend/static/css/main.0fb05bdd.css",
-    "main.js": "/punk-api-frontend/static/js/main.d3a9a3f5.js",
+    "main.js": "/punk-api-frontend/static/js/main.e18050e9.js",
     "index.html": "/punk-api-frontend/index.html",
     "main.0fb05bdd.css.map": "/punk-api-frontend/static/css/main.0fb05bdd.css.map",
-    "main.d3a9a3f5.js.map": "/punk-api-frontend/static/js/main.d3a9a3f5.js.map"
+    "main.e18050e9.js.map": "/punk-api-frontend/static/js/main.e18050e9.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb05bdd.css",
-    "static/js/main.d3a9a3f5.js"
+    "static/js/main.e18050e9.js"
   ]
 }
