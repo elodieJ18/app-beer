@@ -67,7 +67,7 @@ export const CardAllBeers = ({beer}) => {
                             <h3 className="foodPairing">Food Pairing</h3>
                             <p>{beer.food_pairing}</p> 
                   </div> 
-                  <button onClick={onlyOneBeer}>click</button>
+                 { /*<button onClick={onlyOneBeer}>ABOUT THIS BEER</button>*/}
             </div> 
         </PopupOneBeer>
     </div>
