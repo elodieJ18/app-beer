@@ -10,7 +10,7 @@ export const CardAllBeers = ({beer}) => {
   const [buttonOneBeer, setbuttonOneBeer] = useState(false)
 
   const onlyOneBeer = () => {
-    window.location = "/" + beer.id;
+    window.location = "/punk-api-frontend/" + beer.id;
     console.log(beer.id)
   }
 

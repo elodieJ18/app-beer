@@ -6,7 +6,7 @@ export const RandomBeer = () => {
     const [randomBeer, setRandomBeer] = useState([])
 
     const onClickHandler = async () => {
-        fetch("http://api.punkapi.com/v2/beers/random")
+        fetch("https://api.punkapi.com/v2/beers/random")
         .then(response => response.json())
         .then(setRandomBeer)
         .catch((err) => console.log(err));

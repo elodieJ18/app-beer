@@ -15,7 +15,7 @@ export const ThreadBeer = () => {
 
 
     useEffect(() => { 
-        fetch('http://api.punkapi.com/v2/beers' +'?'+ searchParams)
+        fetch('https://api.punkapi.com/v2/beers' +'?'+ searchParams)
        .then(response => response.json())
        .then(setAllBeers) 
      }, [searchParams])
