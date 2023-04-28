@@ -9,15 +9,18 @@ export const CardAllBeers = ({beer}) => {
 
   const [buttonOneBeer, setbuttonOneBeer] = useState(false)
 
-   
+  const onlyOneBeer = () => {
+    window.location = "/" + beer.id;
+    console.log(beer.id)
+  }
 
   return ( 
   /*-----------cardBeer---------------*/
     <div className="home-card">
-        <div className="home-card-container">
+        <div onClick={() => setbuttonOneBeer(true, document.body.style.overflow = 'hidden')} className="home-card-container">
           <div className="home-card-container-element">
                 <div>
-                    <img onClick={() => setbuttonOneBeer(true, document.body.style.overflow = 'hidden')} src={beer.image_url}/> 
+                    <img src={beer.image_url}/> 
                 </div>
                 <div className="two-col-info">
                    <h2>{beer.name}</h2>
@@ -64,6 +67,7 @@ export const CardAllBeers = ({beer}) => {
                             <h3 className="foodPairing">Food Pairing</h3>
                             <p>{beer.food_pairing}</p> 
                   </div> 
+                  <button onClick={onlyOneBeer}>click</button>
             </div> 
         </PopupOneBeer>
     </div>

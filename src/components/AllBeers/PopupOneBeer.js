@@ -2,7 +2,7 @@ import React from "react";
 import "../../css/styles.css"; 
 
 
-export const PopupOneBeer = (props) => {     
+export const PopupOneBeer = (props) => {   
     
   return (
     (props.trigger) ? (

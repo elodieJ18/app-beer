@@ -8,6 +8,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 **I know this app (Create REACT App) is nolonger obsolete I changing for next.js**
 **Because it was a simple test I didn't use Axios, Context/or Redux** 
+**Responsive is not end**
+
 
 
 ## Available Scripts

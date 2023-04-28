@@ -114,6 +114,7 @@ img {
   justify-content: space-between;
   align-items: stretch;
   overflow: hidden;
+  cursor: pointer;
   border-radius: 0 0 3px 3px;
 }
 .home-card-all-beers .home-card-container .home-card-container-element {
@@ -223,6 +224,12 @@ img {
   .home-card-container-element {
     width: 225px;
   }
+  .button-type-hover-container {
+    bottom: 65px;
+  }
+  .home-card-all-beers .home-card-container .home-card-container-element {
+    width: 247px;
+  }
 }
 .popup-one-beer {
   position: fixed;
@@ -320,6 +327,25 @@ img {
   row-gap: 20px;
 }
 
+@media (max-width: 720px) {
+  .popup-one-beer-container {
+    margin: 0px;
+    width: 100%;
+  }
+  .popup-card-container-element {
+    margin: 0px;
+    border: 0.5px solid;
+  }
+  .popup-card-container-element .popup-card-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .popup-card-info img {
+    height: 100%;
+    width: 20%;
+  }
+}
 /*--------FilterBeers--------*/
 .filter-and-beers-container {
   display: flex;
@@ -409,6 +435,7 @@ img {
   justify-content: space-between;
   align-items: stretch;
   overflow: hidden;
+  cursor: pointer;
   border-radius: 0 0 3px 3px;
 }
 .random-beer-image-container .home-card-container .home-card-container-element {
@@ -420,15 +447,10 @@ img {
   max-height: 100%;
   padding: 50px 20px 0px 20px;
   overflow: hidden;
-  animation-name: btn-animation 1s forwards;
 }
-.random-beer-image-container .home-card-container .home-card-container-element:hover {
-  position: relative;
-  background-color: rgba(255, 0, 0, 0);
-  z-index: 998;
-}
-.random-beer-image-container .home-card-container .home-card-container-element:hover + .button-type-hover-container {
-  bottom: 65px;
+
+.random-beer .button-type-hover-container {
+  bottom: 66px;
   cursor: pointer;
   transition-duration: 0.5s;
   transition-timing-function: ease;
@@ -441,6 +463,12 @@ img {
   color: white;
   font-weight: 900;
   border-radius: 3px;
+}
+.button-random-beer:hover {
+  background-color: rgb(249, 206, 78);
+}
+.button-random-beer:active {
+  background-color: rgb(249, 217, 121);
 }
 
 .random-beer-image-container {
