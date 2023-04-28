@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/punk-api-frontend/static/css/main.0fb05bdd.css",
+    "main.js": "/punk-api-frontend/static/js/main.37209494.js",
+    "index.html": "/punk-api-frontend/index.html",
+    "main.0fb05bdd.css.map": "/punk-api-frontend/static/css/main.0fb05bdd.css.map",
+    "main.37209494.js.map": "/punk-api-frontend/static/js/main.37209494.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fb05bdd.css",
+    "static/js/main.37209494.js"
+  ]
+}
