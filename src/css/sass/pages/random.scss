@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: stretch;
     overflow: hidden;
+    cursor: pointer;
     border-radius: 0 0 3px 3px;
 
     .home-card-container-element {
@@ -19,26 +20,29 @@
          max-height: 100%;
          padding: 50px 20px 0px 20px;
          overflow: hidden;
-         animation-name: btn-animation 1s forwards;
-         &:hover {
-             position: relative;
-             background-color: #ff000000;
-             z-index: 998;
-         }
-
-         &:hover + .button-type-hover-container {
-             bottom: 65px;
-             cursor: pointer;
-             transition-duration: 0.5s;
-             transition-timing-function: ease;
-             
-         } 
      }
 
 }
 
-.button-random-beer {
-    @include buttonFilter
+.random-beer {
+
+    .button-type-hover-container {
+        bottom: 66px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        
+    } 
+}
+
+.button-random-beer{
+    @include buttonFilter;
+    &:hover {
+        background-color: rgb(249, 206, 78);
+    }  
+    &:active {
+        background-color: rgb(249, 217, 121);
+    } 
 }
 
 .random-beer-image-container {

@@ -7,19 +7,12 @@ import Navbar from "../components/Navbar";
 function Home() { 
 
   return (
-   <div>
-      <div> 
         <div className="home">  
           <Navbar/> 
             <div className="home-container"> 
                 <ThreadBeer />
           </div>
         </div>
-      </div> 
-      <div>
-      </div>
-    </div>
- 
   );
 }
 
